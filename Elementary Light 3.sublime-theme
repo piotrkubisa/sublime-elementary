@@ -1126,12 +1126,25 @@
     },
     {
         "class": "icon_folder",
-        "parents":
-        [
-            { "class": "tree_row", "attributes": ["expanded"] }
-        ],
+        "parents": [{"class": "tree_row", "attributes": ["hover"] }],
+        "layer0.texture": "Theme - Elementary/Elementary Light/folder-closed-hover.png",
+    },
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
         "layer0.texture": "Theme - Elementary/Elementary Light/folder-open.png",
     },
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"] }],
+        "layer0.texture": "Theme - Elementary/Elementary Light/folder-open-hover.png",
+    },
+    // {
+    //     "class": "icon_folder_dup",
+    //     "layer0.texture": "Theme - Elementary/Elementary Light/folder-duplicated.png",
+    //     "layer0.opacity": 1.0,
+    //     "content_margin": [8, 8]
+    // },
     {
         "class": "icon_folder_loading",
         "layer0.texture":
