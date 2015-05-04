@@ -93,6 +93,12 @@ Elementary themes comes with various setings which can be set using `Preferences
 	* Mustang Bianco.
 	* Mustang Obsidian.
 	* Monokai Extended.
+* Fonts:
+ 	* [Meslo font](https://github.com/andreberg/Meslo-Font)
+ 	* Droid Sans
+* Dark *titlebar*:
+	* [p-e-w/GTKDarkThemeVariantSetter](https://github.com/p-e-w/GTKDarkThemeVariantSetter)
+
 
 ## Contribution &amp; suggestions
 
