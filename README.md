@@ -44,28 +44,32 @@ After package installation you will need to set `theme` user setting in `Prefere
 Dark variant of theme is only compatible with Sublime Text 3 version by now. Set theme configuration as it is shown below:
 
 * Sublime Text 3:
-	```js
-	{
-	  "theme": "Elementary Dark.sublime-theme"
-	}
-	```
+
+```json
+{
+  "theme": "Elementary Dark.sublime-theme"
+}
+```
 
 ### Light variant
 
 Light theme is also compatible with Sublime Text 2, depending on version use proper theme:
 
 * Sublime Text 3:
-	```js
-	{
-	  "theme": "Elementary Light 3.sublime-theme"
-	}
-	```
+
+```json
+{
+  "theme": "Elementary Light 3.sublime-theme"
+}
+```
+
 * Sublime Text 2:
-	```js
-	{
-	  "theme": "Elementary Light.sublime-theme"
-	}
-	```
+
+```json
+{
+  "theme": "Elementary Light.sublime-theme"
+}
+```
 
 ## Configuration
 
