@@ -106,4 +106,4 @@ If you see something looking *just bad*, please let me know using [issues](https
 
 ## Credits
 
-This project consist some work which haven't been done by me and I am managed to say thanks to [@samuelrafo](https://github.com/samuelrafo/) for designing his light variant of [Elementary Theme]](https://github.com/samuelrafo/elementary). In generally speaking I find this repo as fork, trying keep this theme up-to date with latest Sublime Text version showing also his fabulous work done on light variant.
+This project consist some work which haven't been done by me and I am managed to say thanks to [@samuelrafo](https://github.com/samuelrafo/) for designing his light variant of [Elementary Theme](https://github.com/samuelrafo/elementary). In generally speaking I find this repo as fork, trying keep this theme up-to date with latest Sublime Text version showing also his fabulous work done on light variant.
