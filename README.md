@@ -8,7 +8,11 @@ Project currently is in development stage. You can check progress [here](https:/
 
 Elementary theme tries to mimic [elementary OS](https://github.com/elementary) user interface.
 
-<!-- Screenshots needed on gh-pages branch -->
+<!-- Screenshots on gh-pages branch -->
+
+![Dark Variant](http://piqus.github.io/sublime-elementary/screenshots/dark_autocomplete.png)
+
+![Light Variant](http://piqus.github.io/sublime-elementary/screenshots/light_variant_search.png)
 
 ## Installation
 
