@@ -5,6 +5,10 @@ a {
 
 a:hover {
     color: #00aaff;
+    -webkit-transition: color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
 }
 
 .pure-alert {
@@ -21,11 +25,19 @@ a:hover {
 
 #menu { 
 	background: #E2E2E2;
-}
-	
+}	
 	#menu .pure-menu ul {
 	    margin-top: 1em;
 	    border-top: none;
+	}
+
+	#menu .pure-menu-selected,
+    #menu .pure-menu-heading {
+        background: #08C;
+    }
+
+    #menu .pure-menu-heading:hover {
+	    background: #0096e0;
 	}
 
 	#menu .pure-menu-heading {
@@ -48,10 +60,36 @@ a:hover {
 	        color: rgba(255, 255, 255, 0.6);
 	    }
 
+	#menu .pure-menu-author {
+	    display: block;
+	    background: #363B3E;
+	    color: #969f9d;
+	}
+		#menu .pure-menu-author img {
+			border-radius: 4px;
+			vertical-align: middle;
+			-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.4), inset 0 -1px rgba(255, 255, 255, 0.1);
+			-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.4), inset 0 -1px rgba(255, 255, 255, 0.1);
+			box-shadow: 0 1px 3px rgba(0,0,0,0.4), inset 0 -1px rgba(255, 255, 255, 0.1);
+		}
+
+		#menu .pure-menu-author:hover {
+			background: #3f4549;
+		}
+
+	#menu .pure-menu-author,
+	#menu .pure-menu-heading {
+		-webkit-transition: background 0.3s ease-in-out;
+		-moz-transition: background 0.3s ease-in-out;
+		-o-transition: background 0.3s ease-in-out;
+		transition: background 0.3s ease-in-out;
+	}
+
 	#menu .pure-menu li a {
 	    border-top: 1px solid transparent;
 	    border-bottom: 1px solid transparent;
 	}
+
 	#menu .pure-menu li a:hover,
 	#menu .pure-menu li a:focus {
 	    background: rgb(202,202,202);
@@ -64,6 +102,8 @@ a:hover {
 	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cacaca', endColorstr='#d1d1d1', GradientType=0 );
 	    border-top: 1px solid #AAAAAA;
 	    border-bottom: 1px solid #BCBCBC;
+	    -webkit-box-shadow: 0 1px rgba(202, 202, 202, 0.2), inset 0 1px rgb(194, 194, 194);
+	    -moz-box-shadow: 0 1px rgba(202, 202, 202, 0.2), inset 0 1px rgb(194, 194, 194);
 	    box-shadow: 0 1px rgba(202, 202, 202, 0.2), inset 0 1px rgb(194, 194, 194);
 	    color: #333333;
 	}
