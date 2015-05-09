@@ -1,0 +1,33 @@
+{
+  "name": "Theme - Elementary",
+  "version": "0.2.0",
+  "homepage": "http://piqus.github.io/sublime-elementary",
+  "authors": [
+    "piqus <ovirendo@gmail.com>"
+  ],
+  "description": "ElementaryOS inspired UI theme for Sublime Text 2 and Sublime Text 3.",
+  "main": "index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "elementary",
+    "theme",
+    "github",
+    "sublime-elementary",
+    "gh-pages"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pure": "~0.6.0",
+    "mdi": "~1.0.62-beta"
+  }
+}
