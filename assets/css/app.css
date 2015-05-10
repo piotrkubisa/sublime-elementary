@@ -23,6 +23,24 @@ a:hover {
     }
 
 
+.content-subhead { 
+	position: relative;
+}
+	.content-subhead a {
+		color: #b8d3e0;
+	}
+	.content-subhead a:hover {
+		color: #00aaff
+	}
+	.content-subhead-anchor {
+		left: -20px;
+		position: absolute;
+	}
+
+.content-subsubhead {
+	margin: 30px 0 12px 0;
+}
+
 #menu { 
 	background: #E2E2E2;
 }	
@@ -107,3 +125,37 @@ a:hover {
 	    box-shadow: 0 1px rgba(202, 202, 202, 0.2), inset 0 1px rgb(194, 194, 194);
 	    color: #333333;
 	}
+
+.code-snippet {
+	background: #323639;
+	color: #ACACAC;
+	padding: 6px 7px;
+	border-radius: 4px;
+}
+	.code-snippet .noselect,
+	.code-snippet .noselect:focus {
+	    -webkit-touch-callout: none;
+	    -webkit-user-select: none;
+	    -khtml-user-select: none;
+	    -moz-user-select: none;
+	    -ms-user-select: none;
+	    user-select: none;
+	    outline-style:none;
+	}
+	/* green */
+	.code-snippet .string {
+		color: #88BB77;
+	}
+	/* blue */
+	.code-snippet .const {
+		color: #4B99EA;
+	}
+	/* gray */
+	.code-snippet .comment {
+		color: #808080;
+	}
+	/* rusty-orange */
+	.code-snippet .keyword {
+		color: #BB9977;
+	}
+	

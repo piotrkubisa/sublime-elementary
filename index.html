@@ -44,9 +44,11 @@
     				</a>
 
     				<ul class="pure-menu-list">
-    					<li class="pure-menu-item"><a href="#" class="pure-menu-link">Design</a></li>
-    					<li class="pure-menu-item"><a href="#" class="pure-menu-link">Installation</a></li>
-    					<li class="pure-menu-item"><a href="#" class="pure-menu-link">Configuration</a></li>
+    					<li class="pure-menu-item"><a href="#design" class="pure-menu-link">Design</a></li>
+    					<li class="pure-menu-item"><a href="#installation" class="pure-menu-link">Installation</a></li>
+    					<li class="pure-menu-item"><a href="#activation" class="pure-menu-link">Activation</a></li>
+    					<li class="pure-menu-item"><a href="#configuration" class="pure-menu-link">Configuration</a></li>
+    					<li class="pure-menu-item"><a href="#credits" class="pure-menu-link">Credits</a></li>
     				</ul>
     			</div>
     		</div>
@@ -57,27 +59,35 @@
     				<h2>ElementaryOS inspired UI theme for Sublime Text.</h2>
     			</div>
 
+    			<!-- Design -->
     			<div class="content">
     				<div class="pure-alert pure-alert-warning">
     					Project currently is in development stage. You can check progress <a href="https://github.com/piqus/sublime-elementary/issues/1">here</a>.
     				</div>
 
-    				<h2 class="content-subhead">Design</h2>
+    				<h2 class="content-subhead">
+    					<a id="design" class="content-subhead-anchor" href="#design" aria-hidden="true">#</a>
+    					Design
+					</h2>
     				<p>
 	    				Elementary theme tries to mimic <a href="https://github.com/elementary">elementary OS</a> user interface.
     				</p>
     			</div>
-
     			<div class="pure-g">
     				<div class="pure-u-1-1">
-    					<img class="pure-img-responsive" src="./screenshots/dark_autocomplete.png" alt="">
+	    				<a href="./screenshots/dark_autocomplete.png">
+	    					<img class="pure-img-responsive" src="./screenshots/dark_autocomplete.png" alt="">
+    					</a>
     				</div>
     			</div>
 
+    			<!-- Design / Light Variant -->
     			<div class="content">
-    				<h3 class="content-subhead">Light Variant</h3>
+    				<h3 class="content-subhead content-subsubhead">
+    					<a id="design-lightvariant" class="content-subhead-anchor" href="#design-lightvariant" aria-hidden="true">#</a>
+    					Light Variant
+					</h3>
     			</div>
-
     			<div class="pure-g">
     				<div class="pure-u-1-2">
     					<a href="./screenshots/light_variant.png">
@@ -91,10 +101,13 @@
     				</div>
     			</div>
 
+    			<!-- Design / Dark Variant -->
     			<div class="content">
-    				<h3 class="content-subhead">Dark Variant</h3>
+    				<h3 class="content-subhead content-subsubhead">
+    					<a id="design-darkvariant" class="content-subhead-anchor" href="#design-darkvariant" aria-hidden="true">#</a>
+    					Dark Variant
+					</h3>
     			</div>
-
     			<div class="pure-g">
     				<div class="pure-u-1-3">
     					<a href="./screenshots/dark_quickpanel.png">
@@ -112,6 +125,110 @@
     					</a>
     				</div>
     			</div>
+
+    			<!-- Installation -->
+				<div class="content">
+					<h2 class="content-subhead">
+						<a id="installation" class="content-subhead-anchor" href="#installation" aria-hidden="true">#</a>
+						Installation
+					</h2>
+
+					<!-- Installation / Sublime Package Control -->
+					<h3 class="content-subhead content-subsubhead">
+						Sublime Package Control
+					</h3>
+					<p>
+						If you are using excellent <a href="https://packagecontrol.io">Sublime Package Control</a> you can simply install Elementary Theme via <code>Package Control: Install Package</code> menu item (<code>Ctrl+Shift+P</code> or <code>Cmd+Shift+P</code> on OS X), where this theme is listed as:
+					</p>
+					<p>
+						<pre class="code-snippet"><span class="string">Theme - Elementary</span></pre>
+					</p>
+
+					<!-- Installation / Git -->
+					<h3 class="content-subhead content-subsubhead">
+						Git
+					</h3>
+					<p>
+						Simply clone this repository to your Sublime Packages/ folder (available via <code>Preferences -&gt; Browse Packages...</code>). While inside the Packages/ directory, clone the theme repository using the command below:
+					</p>
+					<p>
+						<pre class="code-snippet"><span class="noselect">$ </span><span class="const">git clone</span> <span class="keyword">https://github.com/piqus/sublime-elementary.git</span> <span class="string">"Theme - Elementary"</span></pre>
+					</p>
+
+					<!-- Installation / Manual Installation -->
+					<h3 class="content-subhead content-subsubhead">
+						Manual Installation
+					</h3>
+					<ol>
+						<li><strong>Download</strong> latest version as zip-ball or tar-ball, while browsing releases on <a href="https://github.com/piqus/sublime-elementary/releases">sublime-elementary</a>.</li>
+						<li>As it was aforementioned in Git installation method, you need to <strong>locate</strong> Sublime Text Packages/ directory.</li>
+						<li>
+							<strong>Unzip</strong> the files and <strong>rename</strong> the folder to <strong>Theme - Elementary</strong>.</li>
+						<li><strong>Copy</strong> the folder into your Sublime Text Packages/ directory</li>
+					</ol>
+				</div>
+
+				<!-- Activation -->
+				<div class="content">
+					<h2 class="content-subhead">
+						<a id="activation" class="content-subhead-anchor" href="#activation" aria-hidden="true">#</a>
+						Activation
+					</h2>
+
+					<!-- Activation / Dark Variant -->
+					<h3 class="content-subhead content-subsubhead">
+						Dark variant
+					</h3>
+					<p>
+						Dark variant of theme is only compatible with Sublime Text 3 version by now. Set theme configuration as it is shown below:
+					</p>
+					<p>
+						Sublime Text 3:
+<pre class="code-snippet">{
+    <span class="string">"theme": "Elementary Dark.sublime-theme"</span>
+}</pre>
+					</p>
+					<h3 class="content-subhead content-subsubhead">
+						Light variant
+					</h3>
+					<p>
+						Light theme is also compatible with Sublime Text 2, depending on version use proper theme:
+					</p>
+					<p>
+						Sublime Text 3:
+<pre class="code-snippet">{
+    <span class="string">"theme": "Elementary Light 3.sublime-theme"</span>
+}</pre>
+					</p>
+					<p>
+						Sublime Text 2:
+<pre class="code-snippet">{
+    <span class="string">"theme": "Elementary Light.sublime-theme"</span>
+}</pre>
+					</p>
+				</div>
+
+				<!-- Configuration -->
+				<div class="content">
+					<h2 class="content-subhead">
+						<a id="configuration" class="content-subhead-anchor" href="#configuration" aria-hidden="true">#</a>
+						Configuration
+					</h2>
+				</div>
+
+				<!-- Credits -->
+				<div class="content">
+					<h2 class="content-subhead">
+						<a id="credits" class="content-subhead-anchor" href="#credits" aria-hidden="true">#</a>
+						Credits
+					</h2>
+					<p>
+						This project consist Elementary Light Variant made by <a href="https://github.com/samuelrafo/">@samuelrafo</a>, which I forked from his <a href="https://github.com/samuelrafo/elementary">Elementary Theme</a> repository.
+					</p>
+					<p>
+						I also added fabulous <a href="https://github.com/voronianski/oceanic-next-theme">Oceanic Next</a> color scheme, which can be also installed in Sublime Package Control.
+					</p>
+				</div>
 
     		</div>
     	</div>
