@@ -5,10 +5,12 @@
     {
         "class": "dropdown_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - Elementary/Elementary Dark/_/down_arrow_inv.png",
+        // "layer0.texture": "Theme - Elementary/Elementary Dark/_/down_arrow_inv.png",
+        "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/go-jump-symbolic.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [4, 4],
-        "layer1.texture": "Theme - Elementary/Elementary Dark/_/down_arrow_inv_over.png",
+        // "layer1.texture": "Theme - Elementary/Elementary Dark/_/down_arrow_inv_over.png",
+        "layer1.texture": "Theme - Elementary/Elementary Dark/symbolic/go-jump-symbolic-active.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": [4, 4],
     },
@@ -865,25 +867,31 @@
     //** Path changed
     {
         "class": "icon_regex",
-        "layer0.texture": "Theme - Elementary/Elementary Dark/find/regex.png",
+        // "layer0.texture": "Theme - Elementary/Elementary Dark/find/regex.png",
+        "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/regexp.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_case",
-        "layer0.texture": "Theme - Elementary/Elementary Dark/find/case.png",
+        // "layer0.texture": "Theme - Elementary/Elementary Dark/find/case.png",
+        "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/format-text-larger-symbolic.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_highlight",
-        "layer0.texture": "Theme - Elementary/Elementary Dark/find/highlight.png",
+        // "layer0.texture": "Theme - Elementary/Elementary Dark/find/highlight.png",
+        "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/input-keyboard-symbolic.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Theme - Elementary/Elementary Dark/find/inselection.png",
+        // "layer0.texture": "Theme - Elementary/Elementary Dark/find/inselection.png",
+        // "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/font-select-symbolic.png",
+        // "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/view-continuous-symbolic.png",
+        "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/highlight.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
@@ -895,7 +903,8 @@
     },
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - Elementary/Elementary Dark/find/wholeword.png",
+        // "layer0.texture": "Theme - Elementary/Elementary Dark/find/wholeword.png",
+        "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/edit-select-symbolic.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
@@ -906,7 +915,8 @@
     // },
     {
         "class": "icon_wrap",
-        "layer0.texture": "Theme - Elementary/Elementary Dark/find/wrap.png",
+        // "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/view-wrapped-symbolic-rtl.png",
+        "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/media-playlist-repeat-symbolic.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
@@ -918,13 +928,15 @@
     },
     {
         "class": "icon_context",
-        "layer0.texture": "Theme - Elementary/Elementary Dark/find/context.png",
+        // "layer0.texture": "Theme - Elementary/Elementary Dark/find/context.png",
+        "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/context.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Theme - Elementary/Elementary Dark/find/use_buffer.png",
+        // "layer0.texture": "Theme - Elementary/Elementary Dark/find/use_buffer.png",
+        "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/use-buffer.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
