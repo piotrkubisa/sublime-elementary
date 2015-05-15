@@ -58,6 +58,12 @@
         "layer0.texture": "Theme - Elementary/Elementary Dark/scrollbar/standard-puck-vertical.png",
         "settings": ["elementary_colorful"],
     },
+    {
+        "class": "puck_control",
+        "layer0.texture": "Theme - Elementary/Elementary Dark/scrollbar/standard-puck-vertical-dark.png",
+        "parents": [{"class": "sidebar_container"}],
+        "settings": ["elementary_colorful"],
+    },
     // Standard horizontal scroll puck
     {
         "class": "puck_control",
@@ -71,6 +77,13 @@
         "class": "puck_control",
         "attributes": ["horizontal"],
         "layer0.texture": "Theme - Elementary/Elementary Dark/scrollbar/standard-puck-horizontal.png",
+        "settings": ["elementary_colorful"],
+    },
+    {
+        "class": "puck_control",
+        "attributes": ["horizontal"],
+        "layer0.texture": "Theme - Elementary/Elementary Dark/scrollbar/standard-puck-horizontal-dark.png",
+        "parents": [{"class": "sidebar_container"}],
         "settings": ["elementary_colorful"],
     },
 
