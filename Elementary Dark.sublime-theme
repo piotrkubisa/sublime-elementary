@@ -289,7 +289,8 @@
     },
     {
         "class": "panel_control",
-        "settings": ["elementary_light_statusbar"],
+        "settings": ["elementary_light_searchbar"],
+        "parents": [{"class": "quick_panel"}],
         "layer0.texture": "Theme - Elementary/Elementary Dark/panels/status-bar.png",
         "layer0.tint": [200, 200, 200],
         "layer0.opacity": 1.0,        
@@ -319,10 +320,11 @@
         "content_margin": [6, 8, 6, 6]
     },
 
+    // Quick switch project
     {
         "class": "quick_panel",
         "row_padding": [6, 3],
-        "layer0.tint": [252, 252, 252],
+        "layer0.tint": [ 56, 62, 65],
         "layer0.opacity": 1.0
     },
     {
@@ -440,6 +442,13 @@
         "attributes": ["dirty"],
         "content_margin": [12, 0, 7, 6]
     },
+    // Tabs (file color overrides)
+    // {
+    //     "class": "tab_control",
+    //     "attributes": ["selected", "file_light"],
+    //     "layer1.texture": "Theme - Elementary/Elementary Dark/tabs/tab-active-low.png",
+    //     "layer1.opacity": 1
+    // },
 
 //
 // TAB LABEL
@@ -456,7 +465,8 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "fg": [0, 175, 255],
+        // "fg": [0, 175, 255],
+        "fg": [255, 255, 255],
         "shadow_color": [0, 0, 0, 153]
         // "fg": [192, 198, 196],
         // "shadow_color": [0, 0, 0, 153]
@@ -1081,15 +1091,18 @@
 //
     {
         "class": "status_bar",
-        "layer0.texture": "Theme - Elementary/Elementary Dark/panels/status-bar.png",
+        "layer0.texture": "Theme - Elementary/Elementary Dark/statusbar_dark2.png",
+        // "layer0.texture": "Theme - Elementary/Elementary Dark/panels/status-bar.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
-        "content_margin": [4, 2, 4, 0]
+        // "content_margin": [4, 2, 4, 0]
+        "content_margin": [6, 3, 6, 3]
     },
     {
         "class": "status_bar",
-        "settings": ["elementary_dark_statusbar"],
+        // "settings": ["elementary_dark_statusbar"],
         "layer0.texture": "Theme - Elementary/Elementary Dark/panels/panel-bottom-background.png",
+        "layer0.texture": "Theme - Elementary/Elementary Dark/statusbar_dark2.png",
         "layer0.opacity": 1.0,
     },
     // 
@@ -1104,7 +1117,7 @@
         "layer0.draw_center": false,
         "layer0.inner_margin": [1, 0, 0, 0],
         "content_margin": [10, 2, 10, 3],
-        "min_size": [75, 0]
+        "min_size": [100, 0]
     },
     {
         "class": "status_button",
