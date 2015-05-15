@@ -870,22 +870,44 @@
         // "layer0.texture": "Theme - Elementary/Elementary Dark/find/regex.png",
         "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/regexp.png",
         "layer0.opacity": 1.0,
+        "layer0.tint": [255, 255, 255],
         "content_margin": [8, 8]
     },
+    {
+        "class": "icon_regex",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [0, 170, 255]
+    },
+
     {
         "class": "icon_case",
         // "layer0.texture": "Theme - Elementary/Elementary Dark/find/case.png",
         "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/format-text-larger-symbolic.png",
         "layer0.opacity": 1.0,
+        "layer0.tint": [255, 255, 255],
         "content_margin": [8, 8]
     },
+    {
+        "class": "icon_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [0, 170, 255]
+    },
+
     {
         "class": "icon_highlight",
         // "layer0.texture": "Theme - Elementary/Elementary Dark/find/highlight.png",
         "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/input-keyboard-symbolic.png",
         "layer0.opacity": 1.0,
+        "layer0.tint": [255, 255, 255],
         "content_margin": [8, 8]
     },
+    {
+        "class": "icon_highlight",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        // "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/input-keyboard-symbolic-active.png",
+        "layer0.tint": [0, 170, 255]
+    },
+
     {
         "class": "icon_in_selection",
         // "layer0.texture": "Theme - Elementary/Elementary Dark/find/inselection.png",
@@ -893,52 +915,89 @@
         // "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/view-continuous-symbolic.png",
         "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/highlight.png",
         "layer0.opacity": 1.0,
+        "layer0.tint": [255, 255, 255],
         "content_margin": [8, 8]
     },
+    {
+        "class": "icon_in_selection",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [0, 170, 255]
+    },
+
     {
         "class": "icon_reverse",
         "layer0.texture": "Theme - Elementary/Elementary Dark/find/reverse.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
+
     {
         "class": "icon_whole_word",
         // "layer0.texture": "Theme - Elementary/Elementary Dark/find/wholeword.png",
         "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/edit-select-symbolic.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "layer0.tint": [255, 255, 255],
+        "content_margin": [8, 8],
     },
-    // {
-    //     "class": "icon_whole_word",
-    //     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-    //     "layer0.texture": "Theme - Soda/Soda Dark/icon-word-on.png"
-    // },
+    {
+        "class": "icon_whole_word",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [0, 170, 255]
+    },
+    
     {
         "class": "icon_wrap",
         // "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/view-wrapped-symbolic-rtl.png",
         "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/media-playlist-repeat-symbolic.png",
         "layer0.opacity": 1.0,
+        "layer0.tint": [255, 255, 255],
         "content_margin": [8, 8]
     },
+    {
+        "class": "icon_wrap",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [0, 170, 255]
+    },
+    
     {
         "class": "icon_preserve_case",
         "layer0.texture": "Theme - Elementary/Elementary Dark/find/replace_preserve_case.png",
         "layer0.opacity": 1.0,
+        "layer0.tint": [255, 255, 255],
         "content_margin": [8, 8]
     },
+    {
+        "class": "icon_preserve_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [0, 170, 255]
+    },
+
     {
         "class": "icon_context",
         // "layer0.texture": "Theme - Elementary/Elementary Dark/find/context.png",
         "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/context.png",
         "layer0.opacity": 1.0,
+        "layer0.tint": [255, 255, 255],
         "content_margin": [8, 8]
     },
+    {
+        "class": "icon_context",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [0, 170, 255]
+    },
+
     {
         "class": "icon_use_buffer",
         // "layer0.texture": "Theme - Elementary/Elementary Dark/find/use_buffer.png",
         "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/use-buffer.png",
         "layer0.opacity": 1.0,
+        "layer0.tint": [255, 255, 255],
         "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_use_buffer",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [0, 170, 255]
     },
 
 
