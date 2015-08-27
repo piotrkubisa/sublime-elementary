@@ -1,7 +1,7 @@
 [
 //
 // DROPDOWN
-// 
+//
     {
         "class": "dropdown_button_control",
         "content_margin": [8, 8],
@@ -214,20 +214,40 @@
 //
     {
         "class": "close_button",
-        "layer0.texture": "Theme - Elementary/Elementary Dark/_/grey_x.png",
-        "layer0.opacity": 0.5,
+        "layer0.texture": "Theme - Elementary/Elementary Dark/sidebar/close.png",
+        "layer0.opacity": 0.7,
+        "layer1.opacity": 0,
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Theme - Elementary/Elementary Dark/_/dirty_indicator.png"
+        "layer0.texture": "Theme - Elementary/Elementary Dark/sidebar/dirty.png",
+        "settings": ["!elementary_colorful"],
+        "layer0.opacity": 0.8
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "settings": ["elementary_colorful"],
+        "layer0.texture": "Theme - Elementary/Elementary Dark/sidebar/dirty_colorful.png",
+        "layer0.opacity": 0.8
     },
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.opacity": 1.0
+        "layer1.texture": "Theme - Elementary/Elementary Dark/sidebar/pressed.png",
+        "layer0.opacity": 1.0,
+        "layer1.opacity": 0.5
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty", "hover"],
+        "layer1.texture": "Theme - Elementary/Elementary Dark/sidebar/close.png",
+        // "layer0.tint": [0, 150, 224],
+        "layer0.opacity": 0.3,
+        "layer1.opacity": 1.0
     },
 
 //
@@ -269,7 +289,7 @@
 
 //
 // TEXT LINE CONTROL
-// 
+//
     // {
     //     "class": "text_line_control",
         // "layer0.texture": "Theme - Elementary/Elementary Dark/_/input_field.png",
@@ -308,7 +328,7 @@
         "parents": [{"class": "quick_panel"}],
         "layer0.texture": "Theme - Elementary/Elementary Dark/panels/status-bar.png",
         "layer0.tint": [200, 200, 200],
-        "layer0.opacity": 1.0,        
+        "layer0.opacity": 1.0,
     },
 
 //
@@ -421,7 +441,7 @@
         "mouse_wheel_switch": true
     },
 
-    //** Tab 
+    //** Tab
     // Tab element
     {
         "class": "tab_control",
@@ -944,7 +964,7 @@
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.tint": [0, 170, 255]
     },
-    
+
     {
         "class": "icon_wrap",
         // "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/view-wrapped-symbolic-rtl.png",
@@ -958,7 +978,7 @@
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.tint": [0, 170, 255]
     },
-    
+
     {
         "class": "icon_preserve_case",
         "layer0.texture": "Theme - Elementary/Elementary Dark/find/replace_preserve_case.png",
@@ -1185,19 +1205,19 @@
     {
         "class": "status_bar",
         // "settings": ["elementary_dark_statusbar"],
-        "layer0.texture": "Theme - Elementary/Elementary Dark/panels/panel-bottom-background.png",
+        // "layer0.texture": "Theme - Elementary/Elementary Dark/panels/panel-bottom-background.png",
         "layer0.texture": "Theme - Elementary/Elementary Dark/statusbar_dark2.png",
         "layer0.opacity": 1.0,
     },
-    // 
+    //
     {
         "class": "status_container",
         "content_margin": [0, 2, 0, 3],
     },
     {
         "class": "status_button",
-        "layer0.tint": [140, 140, 140],
-        "layer0.opacity": 1.0,
+        "layer0.tint": [15, 15, 15],
+        "layer0.opacity": 0.15,
         "layer0.draw_center": false,
         "layer0.inner_margin": [1, 0, 0, 0],
         "content_margin": [10, 2, 10, 3],
