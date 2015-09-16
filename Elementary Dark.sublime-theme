@@ -445,7 +445,7 @@
     // Tab element
     {
         "class": "tab_control",
-        "content_margin": [12, 3, 12, 3], // 12, 3, 12, 3
+        "content_margin": [12, 3, 12, 3],
         "max_margin_trim": 0,
         "hit_test_level": 0.0,
         "layer0.texture": "Theme - Elementary/Elementary Dark/tabs/tab-inactive.png",
@@ -481,7 +481,7 @@
     // {
     //     "class": "tab_control",
     //     "attributes": ["selected", "file_light"],
-    //     "layer1.texture": "Theme - Elementary/Elementary Dark/tabs/tab-active-low.png",
+        // "layer1.texture": "Theme - Elementary/Elementary Dark/tabs/tab-active-low.png",
     //     "layer1.opacity": 1
     // },
 
@@ -526,7 +526,6 @@
         "attributes": ["dirty"],
         "settings": ["highlight_modified_tabs"],
         "fg": [192, 198, 196],
-        "fg": [0, 175, 255],
         "fg": [0, 175, 255]
     },
 
@@ -707,6 +706,120 @@
         "layer1.opacity": 1.0
     },
 
+        {
+            "class": "tabset_control",
+            "settings": ["enable_tab_scrolling"],
+            "content_margin": [3, 0, 3, 0]
+        },
+        {
+            "class": "tabset_control",
+            "settings": ["mouse_wheel_switches_tabs"],
+            "mouse_wheel_switch": true
+        },
+        // Tab element
+        {
+            "class": "tab_control",
+            "content_margin": [12, 0, 12, 0],
+            "max_margin_trim": 0,
+            "hit_test_level": 0.0,
+            "layer0.texture": "Theme - Elementary/Elementary Dark/tabs/flat/tab-inactive.png",
+            "layer0.tint": [56, 56, 56],
+            "layer0.inner_margin": [5, 5],
+            "layer0.opacity": 0.2
+        },
+        // Tab close state
+        {
+            "class": "tab_control",
+            "settings": ["show_tab_close_buttons"],
+            "content_margin": [12, 0, 7, 0]
+        },
+        // Tab hover state
+        {
+            "class": "tab_control",
+            "attributes": ["hover"],
+            "layer0.texture": "Theme - Elementary/Elementary Dark/tabs/flat/tab-hover.png",
+            "layer0.tint": [175, 175, 175],
+        },
+        // Tab active state
+        {
+            "class": "tab_control",
+            "attributes": ["selected"],
+            "layer0.texture": "Theme - Elementary/Elementary Dark/tabs/flat/tab-active.png",
+            // "layer0.tint": [88, 90, 83]
+            "layer0.tint": [28, 28, 28],
+            "layer0.opacity": 0.7
+        },
+
+    //
+    // TAB BUTTONS
+    //
+        // Tab close button
+        {
+            "class": "tab_close_button",
+            "content_margin": [8, 8],
+            "layer0.texture": "Theme - Elementary/Elementary Dark/tabs/flat/tab-close.png",
+            "layer0.opacity": 0.0,
+            "layer0.inner_margin": 0
+        },
+        {
+            "class": "tab_close_button",
+            "parents": [{"class": "tab_control", "attributes": ["hover"]}],
+            "layer0.opacity": 1.0
+        },
+        // {
+        //     "class": "tab_close_button",
+        //     "parents": [{"class": "tab_control", "attributes": ["hover"]}],
+        //     "fg": [255, 255, 255],
+        //     // "layer0.tint": [0, 0, 0],
+        //     "layer0.opacity": 1.0
+        // },
+        // Tab dirty button
+        {
+            "class": "tab_close_button",
+            "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+            "layer0.texture": "Theme - Elementary/Elementary Dark/tabs/flat/tab-dirty.png",
+            "layer0.opacity": 0.5
+        },
+        // Tab close button hover
+        {
+            "class": "tab_close_button",
+            "attributes": ["hover"],
+            "layer0.texture": "Theme - Elementary/Elementary Dark/tabs/flat/tab-close-hover.png"
+        },
+        // Tab close button pressed
+        {
+            "class": "tab_close_button",
+            "attributes": ["pressed"],
+            "layer0.opacity": 0.85
+        },
+    //
+    // TAB LABELS
+    //
+        {
+            "class": "tab_label",
+            "fade": true,
+            "fg": [196, 196, 196],
+            "shadow_color": [12, 12, 12],
+            "shadow_offset": [0, 1],
+            "font.face": "Droid Sans",
+            "font.size": 12,
+            "font.italic": false,
+            "font.bold": true,
+        },
+        {
+            "class": "tab_label",
+            "parents": [{"class": "tab_control", "attributes": ["hover"]}],
+            "fg": [255, 255, 255]
+        },
+        {
+            "class": "tab_label",
+            "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        },
+        {
+            "class": "tab_label",
+            "attributes": ["transient"],
+            "font.italic": true
+        },
 //
 // FOLDING
 //
