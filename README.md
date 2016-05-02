@@ -2,7 +2,7 @@
 
 ElementaryOS inspired UI theme for Sublime Text 2 and Sublime Text 3.
 
-Project currently is in development stage. You can check progress [here](https://github.com/piqus/sublime-elementary/issues/1).
+Project currently is in development stage. You can check progress [here](https://github.com/piotrkubisa/sublime-elementary/issues/1).
 
 ## Design
 
@@ -10,9 +10,9 @@ Elementary theme tries to mimic [elementary OS](https://github.com/elementary) u
 
 <!-- Screenshots on gh-pages branch -->
 
-![Dark Variant](http://piqus.github.io/sublime-elementary/screenshots/dark_autocomplete.png)
+![Dark Variant](http://piotrkubisa.github.io/sublime-elementary/screenshots/dark_autocomplete.png)
 
-![Light Variant](http://piqus.github.io/sublime-elementary/screenshots/light_variant_search.png)
+![Light Variant](http://piotrkubisa.github.io/sublime-elementary/screenshots/light_variant_search.png)
 
 ## Installation
 
@@ -34,7 +34,7 @@ git clone https://github.com/piqus/sublime-elementary.git "Theme - Elementary"
 
 ### Manual installation
 
-1. Download latest version as [zip-ball](https://github.com/piqus/sublime-elementary/archive/0.2.0.zip) or click **Download ZIP**, while browsing latest tag (version) on [sublime-elementary](https://github.com/piqus/sublime-elementary).
+1. Download latest version as [zip-ball](https://github.com/piotrkubisa/sublime-elementary/releases/latest) or click **Download ZIP**, while browsing latest tag (version) on [sublime-elementary](https://github.com/piotrkubisa/sublime-elementary).
 2. As it was aforementioned in Git installation method, you need to **locate** Sublime Text Packages/ directory.
 3. **Unzip** the files and **rename** the folder to **Theme - Elementary**.
 4. **Copy** the folder into your Sublime Text Packages/ directory
@@ -106,7 +106,7 @@ Elementary themes comes with various setings which can be set using `Preferences
 
 ## Contribution &amp; suggestions
 
-If you see something looking *just bad*, please let me know using [issues](https://github.com/piqus/sublime-elementary/issues/). Of course, any pull-requests are greatly welcome, feel free to commit changes!
+If you see something looking *just bad*, please let me know using [issues](https://github.com/piotrkubisa/sublime-elementary/issues/). Of course, any pull-requests are greatly welcome, feel free to commit changes!
 
 ## Credits
 
