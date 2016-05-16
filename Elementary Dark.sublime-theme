@@ -804,7 +804,7 @@
             "font.face": "Droid Sans",
             "font.size": 12,
             "font.italic": false,
-            "font.bold": true,
+            "font.bold": false,
         },
         {
             "class": "tab_label",
