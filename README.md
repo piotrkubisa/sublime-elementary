@@ -2,7 +2,13 @@
 
 ElementaryOS inspired UI theme for Sublime Text 2 and Sublime Text 3.
 
+---
+
 Project currently is in development stage. You can check progress [here](https://github.com/piotrkubisa/sublime-elementary/issues/1).
+
+I would be grateful for any feedback (ideas, bugs, todos, your opinnion) to consider during development.
+
+---
 
 ## Design
 
