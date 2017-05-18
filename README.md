@@ -2,13 +2,8 @@
 
 ElementaryOS inspired UI theme for Sublime Text 2 and Sublime Text 3.
 
----
+> Project currently is untaintained. If you are interested in maintenance this repository then I'd would happy to transfer ownership of `Theme - Elementary` to you.
 
-Project currently is in development stage. You can check progress [here](https://github.com/piotrkubisa/sublime-elementary/issues/1).
-
-I would be grateful for any feedback (ideas, bugs, todos, your opinion).
-
----
 
 ## Design
 
@@ -87,32 +82,36 @@ Elementary themes comes with various setings which can be set using `Preferences
 
 ## Features
 
-<!-- Screenshots and description needed -->
+* Icons
 
-* `elementary_light_bottombar`
-* `elementary_dark_statusbar`
-* `elementary_light_bottombar`
+> Since today (19.05.2017) I'd suggest installing [A File Icon package](https://github.com/ihodev/a-file-icon) instead. I have removed all icons, because they were copied from SetiUI project.
+
+
+* If you set `"elementary_colorful": true` in your user settings you may notice elementarish-blue scrollbars.
+
+![](https://cloud.githubusercontent.com/assets/3073499/7440907/1b351a80-f0cf-11e4-8575-69cab88d300b.png)
+
+Effect:
+
+![](https://cloud.githubusercontent.com/assets/3073499/7440900/f98cbd52-f0ce-11e4-8d9d-a04e76aa3dcd.png)
+
+* `"elementary_light_bottombar": true`
+
+![](https://cloud.githubusercontent.com/assets/3073499/7440902/03168e34-f0cf-11e4-9f59-d055be7883d5.png)
+
+* `"elementary_dark_statusbar": true`
+
+![](https://cloud.githubusercontent.com/assets/3073499/7440903/0d9a2f64-f0cf-11e4-91e4-07c4379ec024.png)
+
 * `elementary_folder_icons` (Light theme with ST2 only)
 
 ### Optional
 
-* `"overlay_scroll_bars": "enabled"`
-* `"bold_folder_labels": true`
-* Color schemes:
-	* Ocean Next.
-	* Mustang Bianco.
-	* Mustang Obsidian.
-	* Monokai Extended.
-* Fonts:
- 	* [Meslo font](https://github.com/andreberg/Meslo-Font)
- 	* Droid Sans
-* Dark *titlebar*:
-	* [p-e-w/GTKDarkThemeVariantSetter](https://github.com/p-e-w/GTKDarkThemeVariantSetter)
-
-
-## Contribution &amp; suggestions
-
-If you see something looking *just bad*, please let me know using [issues](https://github.com/piotrkubisa/sublime-elementary/issues/). Of course, any pull-requests are greatly welcome, feel free to commit changes!
+* I suggest set `"overlay_scroll_bars": "enabled"`,
+* If you are using light variant I'd also set `"bold_folder_labels": true`
+* This theme comes with two Color schemes called `Mustang Bianco` and `Mustang Obsidian` which are modified version of the Mustang.
+* Personally, I'd also set `font_face` to `Fira Mono`, `Fira Code` or `Meslo`, because they are very legible. I'd also set: `"line_padding_bottom": 2`, and `"line_padding_top": 2` to add some whitespaces between the lines.
+* If you are running Sublime Text on some Linux distro then I'd suggest installing [p-e-w/GTKDarkThemeVariantSetter](https://github.com/p-e-w/GTKDarkThemeVariantSetter) which forces a dark theme of the app window.
 
 ## Credits
 
