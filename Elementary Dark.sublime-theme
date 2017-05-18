@@ -5,11 +5,9 @@
     {
         "class": "dropdown_button_control",
         "content_margin": [8, 8],
-        // "layer0.texture": "Theme - Elementary/Elementary Dark/_/down_arrow_inv.png",
         "layer0.texture": "Theme - Elementary/Elementary Dark/symbolic/go-jump-symbolic.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [4, 4],
-        // "layer1.texture": "Theme - Elementary/Elementary Dark/_/down_arrow_inv_over.png",
         "layer1.texture": "Theme - Elementary/Elementary Dark/symbolic/go-jump-symbolic-active.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": [4, 4],
@@ -287,22 +285,6 @@
         // "viewport_opacity": { "target": 1.0, "speed": 20.0, "interpolation": "smoothstep" },
     },
 
-//
-// TEXT LINE CONTROL
-//
-    // {
-    //     "class": "text_line_control",
-        // "layer0.texture": "Theme - Elementary/Elementary Dark/_/input_field.png",
-    //     "layer0.opacity": 1.0,
-    //     "layer0.inner_margin": [4, 5, 4, 3],
-
-        // "layer1.texture": "Theme - Elementary/Elementary Dark/_/input_field_shadow.png",
-    //     "layer1.opacity": 1.0,
-    //     "layer1.inner_margin": [4, 5, 4, 3],
-    //     "tint_index": 1,
-
-    //     "content_margin": [3, 3, 3, 3]
-    // },
     {
         "class": "text_line_control",
         "layer0.texture": "Theme - Elementary/Elementary Dark/panels/text-field.png",
@@ -540,14 +522,14 @@
     {
         "class": "tab_close_button",
         "content_margin": [0, 0],
-        "layer0.texture": "Theme - Elementary/Elementary Dark/_/grey_x.png",
+        "layer0.texture": "Theme - Elementary/Elementary Dark/tabs/grey_x.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Theme - Elementary/Elementary Dark/_/dark_x.png",
+        "layer1.texture": "Theme - Elementary/Elementary Dark/tabs/dark_x.png",
         "layer1.opacity": 0.0,
-        "layer2.texture": "Theme - Elementary/Elementary Dark/_/grey_x_light_shadow.png",
+        "layer2.texture": "Theme - Elementary/Elementary Dark/tabs/grey_x_light_shadow.png",
         "layer2.opacity": 1.0,
-        "layer3.texture": "Theme - Elementary/Elementary Dark/_/dark_x_light_shadow.png",
+        "layer3.texture": "Theme - Elementary/Elementary Dark/tabs/dark_x_light_shadow.png",
         "layer3.opacity": 0.0
     },
     {
@@ -561,7 +543,7 @@
         "layer0.opacity": 0.0,
         "layer1.opacity": 0.0,
         "layer2.opacity": 0.0,
-        "layer3.texture": "Theme - Elementary/Elementary Dark/_/dirty_circle.png",
+        "layer3.texture": "Theme - Elementary/Elementary Dark/tabs/dirty_circle.png",
         "layer3.opacity": 0.5
     },
     {
@@ -578,7 +560,7 @@
         "layer0.opacity": 0.0,
         "layer1.opacity": 0.0,
         "layer2.opacity": 0.0,
-        "layer3.texture": "Theme - Elementary/Elementary Dark/_/dark_x_light_shadow.png",
+        "layer3.texture": "Theme - Elementary/Elementary Dark/tabs/dark_x_light_shadow.png",
         "layer3.opacity": 1.0
     },
     {
@@ -587,7 +569,7 @@
         "layer0.opacity": 0.0,
         "layer1.opacity": 0.0,
         "layer2.opacity": 0.0,
-        "layer3.texture": "Theme - Elementary/Elementary Dark/_/dirty_circle.png",
+        "layer3.texture": "Theme - Elementary/Elementary Dark/tabs/dirty_circle.png",
         "layer3.opacity": 1.0
     },
     {
@@ -601,7 +583,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["file_medium_dark"]}],
-        "layer3.texture": "Theme - Elementary/Elementary Dark/_/light_x.png",
+        "layer3.texture": "Theme - Elementary/Elementary Dark/tabs/light_x.png",
         "layer0.opacity": 0.0,
         "layer1.opacity": 0.0,
         "layer2.opacity": 0.0,
@@ -613,14 +595,14 @@
         "layer0.opacity": 0.0,
         "layer1.opacity": 0.0,
         "layer2.opacity": 0.0,
-        "layer3.texture": "Theme - Elementary/Elementary Dark/_/dirty_circle_light.png",
+        "layer3.texture": "Theme - Elementary/Elementary Dark/tabs/dirty_circle_light.png",
         "layer3.opacity": 0.5
     },
     {
         "class": "tab_close_button",
         "attributes": ["hover"],
         "parents": [{"class": "tab_control", "attributes": ["file_medium_dark"]}],
-        "layer3.texture": "Theme - Elementary/Elementary Dark/_/light_x_bright.png",
+        "layer3.texture": "Theme - Elementary/Elementary Dark/tabs/light_x_bright.png",
         "layer0.opacity": 0.0,
         "layer1.opacity": 0.0,
         "layer2.opacity": 0.0,
@@ -629,7 +611,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["file_dark"]}],
-        "layer3.texture": "Theme - Elementary/Elementary Dark/_/light_x.png",
+        "layer3.texture": "Theme - Elementary/Elementary Dark/tabs/light_x.png",
         "layer0.opacity": 0.0,
         "layer1.opacity": 0.0,
         "layer2.opacity": 0.0,
@@ -638,22 +620,22 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty", "file_dark"]}],
-        "layer3.texture": "Theme - Elementary/Elementary Dark/_/light_x.png",
+        "layer3.texture": "Theme - Elementary/Elementary Dark/tabs/light_x.png",
         "layer0.opacity": 0.0,
         "layer1.opacity": 0.0,
         "layer2.opacity": 0.0,
-        "layer3.texture": "Theme - Elementary/Elementary Dark/_/dirty_circle_light.png",
+        "layer3.texture": "Theme - Elementary/Elementary Dark/tabs/dirty_circle_light.png",
         "layer3.opacity": 0.5
     },
     {
         "class": "tab_close_button",
         "attributes": ["hover"],
         "parents": [{"class": "tab_control", "attributes": ["file_dark"]}],
-        "layer3.texture": "Theme - Elementary/Elementary Dark/_/light_x_bright.png",
+        "layer3.texture": "Theme - Elementary/Elementary Dark/tabs/light_x_bright.png",
         "layer0.opacity": 0.0,
         "layer1.opacity": 0.0,
         "layer2.opacity": 0.0,
-        "layer3.texture": "Theme - Elementary/Elementary Dark/_/light_x.png",
+        "layer3.texture": "Theme - Elementary/Elementary Dark/tabs/light_x.png",
         "layer3.opacity": 1.0
     },
 
@@ -661,10 +643,10 @@
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "Theme - Elementary/Elementary Dark/_/arrow_left.png",
+        "layer0.texture": "Theme - Elementary/Elementary Dark/tabs/arrow_left.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Theme - Elementary/Elementary Dark/_/arrow_left_over.png",
+        "layer1.texture": "Theme - Elementary/Elementary Dark/tabs/arrow_left_over.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": 0,
     },
@@ -677,10 +659,10 @@
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "Theme - Elementary/Elementary Dark/_/arrow_right.png",
+        "layer0.texture": "Theme - Elementary/Elementary Dark/sidebar/arrow_right.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Theme - Elementary/Elementary Dark/_/arrow_right_over.png",
+        "layer1.texture": "Theme - Elementary/Elementary Dark/sidebar/arrow_right_over.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": 0,
     },
@@ -693,10 +675,10 @@
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "Theme - Elementary/Elementary Dark/_/arrow_down.png",
+        "layer0.texture": "Theme - Elementary/Elementary Dark/sidebar/arrow_down.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Theme - Elementary/Elementary Dark/_/arrow_down_over.png",
+        "layer1.texture": "Theme - Elementary/Elementary Dark/sidebar/arrow_down_over.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": 0,
     },
@@ -825,10 +807,10 @@
 //
     {
         "class": "fold_button_control",
-        "layer0.texture": "Theme - Elementary/Elementary Dark/_/arrow_right.png",
+        "layer0.texture": "Theme - Elementary/Elementary Dark/sidebar/arrow_right.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Theme - Elementary/Elementary Dark/_/arrow_right_over.png",
+        "layer1.texture": "Theme - Elementary/Elementary Dark/sidebar/arrow_right_over.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": 0,
         "content_margin": [9, 7, 8, 6]
@@ -842,8 +824,8 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Elementary/Elementary Dark/_/arrow_down.png",
-        "layer1.texture": "Theme - Elementary/Elementary Dark/_/arrow_down_over.png"
+        "layer0.texture": "Theme - Elementary/Elementary Dark/sidebar/arrow_down.png",
+        "layer1.texture": "Theme - Elementary/Elementary Dark/sidebar/arrow_down_over.png"
     },
 
     {
@@ -878,18 +860,9 @@
     // Small Icon Buttons
     {
         "class": "icon_button_control",
-        // "layer0.texture": "Theme - Elementary/Elementary Dark/_/middle_button.png",
         "layer0.inner_margin": [6, 6],
         "layer0.opacity": 1.0,
-        "layer2.texture": "Theme - Elementary/Elementary Dark/_/blue_highlight.png",
-        "layer2.opacity": { "target": 0.0, "speed": 1.33, "interpolation": "smoothstep" },
         "content_margin": [4, 4]
-    },
-    {
-        "class": "icon_button_control",
-        "attributes": ["left"],
-        "layer0.texture": "Theme - Elementary/Elementary Dark/_/left_button.png",
-        "layer0.opacity": 1.0
     },
 
     // Button group middle
@@ -961,38 +934,6 @@
         "attributes": ["pressed"],
         "layer0.texture": "Theme - Elementary/Elementary Dark/find/btn-large-on.png"
     },
-    /*
-    // {
-    //     "class": "button_control",
-    //     "content_margin": [6, 5, 6, 6],
-    //     "min_size": [75, 0],
-        // "layer0.texture": "Theme - Elementary/Elementary Dark/_/full_button.png",
-    //     "layer0.opacity": 1.0,
-    //     "layer0.inner_margin": [6, 6],
-        // "layer1.texture": "Theme - Elementary/Elementary Dark/_/full_button_indented.png",
-    //     "layer1.opacity": 0.0,
-    //     "layer1.inner_margin": [6, 6],
-        // "layer2.texture": "Theme - Elementary/Elementary Dark/_/blue_highlight.png",
-    //     "layer2.opacity": { "target": 0.0, "speed": 1.33, "interpolation": "smoothstep" },
-    //     "layer2.inner_margin": [6, 6]
-    // },
-    // {
-    //     "class": "button_control",
-    //     "attributes": ["pressed"],
-    //     "layer0.opacity": 0,
-    //     "layer1.opacity": 1.0
-    // },
-    // {
-    //     "class": "button_control",
-    //     "attributes": ["pressed", "hover"],
-    //     "layer2.opacity": 0.0
-    // },
-    // {
-    //     "class": "button_control",
-    //     "attributes": ["hover"],
-    //     "layer2.opacity": 1.0
-    // },
-    */
 
 //
 // FIND / REPLACE ICONS
@@ -1144,24 +1085,6 @@
         "layer0.inner_margin": [1, 1, 2, 1],
         "content_margin": [0, 0, 0, 0]
     },
-    // Sidebar tree
-    // {
-    //     "class": "sidebar_tree",
-    //     "row_padding": [8, 3],
-    //     "indent": 12,
-    //     "indent_offset": 17,
-    //     "indent_top_level": false,
-    //     "layer0.tint": [230, 230, 230],
-    //     "layer0.opacity": 1.0,
-    //     "dark_content": false
-    // },
-    // Sidebar rows
-    // {
-    //     "class": "tree_row",
-        // "layer0.texture": "Theme - Elementary/Elementary Dark/_/row_highlight_dark.png",
-    //     "layer0.opacity": 0.0,
-    //     "layer0.inner_margin": [1, 1]
-    // },
     {
         "class": "tree_row",
         "layer0.texture": "Theme - Elementary/Elementary Dark/sidebar/row-selected.png",
@@ -1237,10 +1160,10 @@
 //
     {
         "class": "disclosure_button_control",
-        "layer0.texture": "Theme - Elementary/Elementary Dark/_/arrow_right.png",
+        "layer0.texture": "Theme - Elementary/Elementary Dark/sidebar/arrow_right.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Theme - Elementary/Elementary Dark/_/arrow_right_over.png",
+        "layer1.texture": "Theme - Elementary/Elementary Dark/sidebar/arrow_right_over.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": 0,
         "content_margin": [9, 7, 8, 6]
@@ -1258,8 +1181,8 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Elementary/Elementary Dark/_/arrow_down.png",
-        "layer1.texture": "Theme - Elementary/Elementary Dark/_/arrow_down_over.png"
+        "layer0.texture": "Theme - Elementary/Elementary Dark/sidebar/arrow_down.png",
+        "layer1.texture": "Theme - Elementary/Elementary Dark/sidebar/arrow_down_over.png"
     },
 
 //
@@ -1308,8 +1231,7 @@
 //
     {
         "class": "status_bar",
-        "layer0.texture": "Theme - Elementary/Elementary Dark/statusbar_dark2.png",
-        // "layer0.texture": "Theme - Elementary/Elementary Dark/panels/status-bar.png",
+        "layer0.texture": "Theme - Elementary/Elementary Dark/statusbar/statusbar_dark.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
         // "content_margin": [4, 2, 4, 0]
@@ -1317,9 +1239,8 @@
     },
     {
         "class": "status_bar",
-        // "settings": ["elementary_dark_statusbar"],
-        // "layer0.texture": "Theme - Elementary/Elementary Dark/panels/panel-bottom-background.png",
-        "layer0.texture": "Theme - Elementary/Elementary Dark/statusbar_dark2.png",
+        "settings": ["elementary_dark_statusbar"],
+        "layer0.texture": "Theme - Elementary/Elementary Dark/statusbar/statusbar_darker.png",
         "layer0.opacity": 1.0,
     },
     //
