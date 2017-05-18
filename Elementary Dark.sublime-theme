@@ -1231,8 +1231,7 @@
 //
     {
         "class": "status_bar",
-        "layer0.texture": "Theme - Elementary/Elementary Dark/statusbar_dark2.png",
-        // "layer0.texture": "Theme - Elementary/Elementary Dark/panels/status-bar.png",
+        "layer0.texture": "Theme - Elementary/Elementary Dark/statusbar/statusbar_dark.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
         // "content_margin": [4, 2, 4, 0]
@@ -1240,9 +1239,8 @@
     },
     {
         "class": "status_bar",
-        // "settings": ["elementary_dark_statusbar"],
-        // "layer0.texture": "Theme - Elementary/Elementary Dark/panels/panel-bottom-background.png",
-        "layer0.texture": "Theme - Elementary/Elementary Dark/statusbar_dark2.png",
+        "settings": ["elementary_dark_statusbar"],
+        "layer0.texture": "Theme - Elementary/Elementary Dark/statusbar/statusbar_darker.png",
         "layer0.opacity": 1.0,
     },
     //
